@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    color: white;
+}
+
+body {
+    background-color: rgb(88, 98, 109);
+}
+
+nav {
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+nav h1 {
+    font-size: 45px;
+    text-shadow: 0px 5px black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: lightskyblue;
+}
+
+header {
+    background-color: lightslategrey;
+    padding: 15px;
+    box-shadow: 5px 10px black;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.about {
+    background-color: lightslategray;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 5px 10px black;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: white;
+    width: 70%;
+}
+
+.about h2 {
+    text-shadow: 0px 3px black;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.abilities {
+    background-color: lightslategray;
+    margin: 20px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 10px black;
+    color: white;
+    width: 30%;
+}
+
+.abilities h2 {
+    text-shadow: 0px 3px black;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.um {
+    display: flex;
+}
+
+.formation {
+    background-color: lightslategray;
+    margin: 20px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 10px black;
+    width: 85%;
+}
+
+.formation h2 {
+    text-shadow: 0px 3px black;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.languages {
+    background-color: lightslategray;
+    margin: 20px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 10px black;
+    width: 15%;
+}
+
+.languages h2 {
+    text-shadow: 0px 3px black;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.dois {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: lightslategray;
+    font-size: smaller;
+    border-top: 1px solid black;
+    text-shadow: 0px 3px black;
+}
